@@ -1,0 +1,17 @@
+# 核心依赖
+streamlit==1.28.0
+numpy==1.24.0
+pandas==2.0.0
+
+# 功能依赖（稳定版本）
+Pygments==2.19.1             # 语法高亮
+markdown-it-py==2.2.0        # Markdown解析
+rich==13.7.0                 # 终端格式化（避免14.0+的冲突）
+
+# 可选依赖（按需取消注释）
+# matplotlib==3.7.0          # 可视化
+# scikit-learn==1.3.0        # 机器学习
+# python-dotenv==1.0.0       # 环境变量
+
+# 使用国内镜像加速安装（如需取消注释）
+# --index-url https://pypi.tuna.tsinghua.edu.cn/simple
